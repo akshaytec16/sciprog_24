@@ -31,13 +31,13 @@ Use the following command to compile the program:
 
 ```bash
 gcc Conversion.c -o conversion -lm
-
+```
 This compiles the program and links it to the math library using -lm.
 Run the program using:
 
 ```bash
 ./conversion
-
+```
 ### Sample Output
 
 For inum = 33554431, the output will be:
@@ -62,11 +62,11 @@ Run the program to observe how summation order affects floating-point precision.
 
 ```bash
 gcc Sum.c -o sum
-
+```
 Run the program using:
 ```bash
 .\sum
-
+```
 ### Sample Output
 
 The output will be:
